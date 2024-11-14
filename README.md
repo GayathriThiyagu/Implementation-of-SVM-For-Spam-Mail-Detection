@@ -28,6 +28,7 @@ To write a program to implement the SVM For Spam Mail Detection.
 Program to implement the SVM For Spam Mail Detection..
 Developed by: T. Gayathri 
 RegisterNumber:  2122223100007
+*/
 
 import pandas as pd
 data= pd.read_csv("spam.csv", encoding= 'Windows-1252')
@@ -60,7 +61,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 con= confusion_matrix(y_test, y_pred)
 print(con)cl=classification_report(y_test,y_pred)
 print(cl)
-*/
+
 ```
 
 ## Output:
